@@ -1,3 +1,3 @@
-#   py_axfr_zone_transfer_bash_script_dns
-attempts zone transfers. do not use w\out permission  
+#   py_zone_transfer_bash_script_dns_axfr
+ attempts zone transfers. do not use w\out permission  
 

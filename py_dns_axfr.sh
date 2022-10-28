@@ -15,4 +15,4 @@ else:
     print('\nScript running for domain: ', sys.argv[1])
 # Comment
     os.system(cm)
-    os.system('echo $!')
+    os.system('echo $?')

@@ -14,5 +14,5 @@ else:
     print('[*]', "Searching records for domain: ", sys.argv[1], "\n")
     # Command is limited to Linux environments
     os.system(cm)
-    os.system('\necho $?')
+    os.system('echo $?')
 

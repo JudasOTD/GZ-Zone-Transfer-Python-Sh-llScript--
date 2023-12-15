@@ -12,7 +12,7 @@ if len(sys.argv) == 1:
 else:
     cm = 'for sv in $(host -t ANY ' +sys.argv[1] + ' | cut -d " " -f4); do \nhost -l ' +sys.argv[1] + ' $sv | grep "has addr"\ndone'
     print('[*]', "Searching records for domain: ", sys.argv[1], "\n")
-    # Command is limited to Linux environments  only
+    # Command is limited to Linux environments
     os.system(cm)
     os.system('\necho $?')
 
